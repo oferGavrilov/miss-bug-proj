@@ -1,0 +1,265 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+button{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+
+}
+/* header */
+header {
+    width: 100%;
+    background-color: rgb(164 198 255);
+}
+
+.header-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(164 198 255);
+
+}
+
+.header-container nav > a{
+    font-size: 1.1rem;
+    color: #fff;
+}
+/* filter */
+
+.bug-filter{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: rgb(164 198 255);
+    width: 100%;
+    align-items: center;
+}
+.bug-filter input {
+    padding: 0.5rem;
+    margin: 0 1rem;
+    border-radius: 1em;
+    border: none;
+}
+.bug-filter input:focus{
+    outline: none;
+}
+.bug-filter button {
+    padding: 0.7em 1em;
+    border-radius: 1em;
+    border: none;
+    cursor: pointer;
+
+    transition: background-color .4s , color .4s ;
+}
+.bug-filter button:hover{
+    background-color: white;
+    color: rgb(164 198 255);
+}
+
+.paging-container{
+    display: flex;
+    margin-top: 1rem;
+}
+.paging-container > button{
+    margin: 0 1rem;
+}
+/* main */
+.main-bugs-container{
+    display: grid;
+    grid-template-columns: repeat(autofit , minmax(220px , 1fr));
+    margin: auto;
+}
+.bug-preview {
+    background-color: rgb(164 198 255);
+    color: whitesmoke;
+    border-radius: .4em;
+    margin: 5px;
+    text-align: center;
+    padding: 5px;
+    /* max-width: 200px; */
+    width: 242px;
+}
+
+.btns-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.remove-btn{
+    padding: 6px 1rem;
+    border-radius: 1em;
+    border: none;
+}
+
+.edit-btn{
+    padding: 6px 1rem;
+    border-radius: 1em;
+    border: none;
+}
+.add-btn{
+    display: flex;
+    padding: 6px 1rem;
+    border-radius: 1em;
+    border: none;
+}
+
+.details-btn{
+    display: flex;
+    padding: 6px 1rem;
+    border-radius: 1em;
+    border: none;
+}
+.export-btn{
+    display: flex;
+    padding: 6px 1rem;
+    border-radius: 1em;
+    border: none;
+}
+.bug-edit{
+    display: flex;
+    margin:2rem auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(164 198 255);
+    width: fit-content;
+    padding: 2rem;
+    border-radius: 2em;
+}
+
+.back-btn{
+    cursor: pointer;
+    margin: auto;
+    padding: 6px 1rem;
+}
+.bug-edit form{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem;
+    margin: 10px;
+}
+.bug-edit input{
+    padding: 1rem 1rem;
+    margin: 10px;
+    border: none;
+    border-radius: 2em;
+   
+}
+
+.bug-edit button{
+    padding: 1rem 1rem;
+    margin: 10px;
+    border-radius:2em ;
+    background-color: #fff;
+    border: none;
+
+    transition: background-color .4s color .4s;
+}
+.bug-edit button:hover{
+    background-color: rgb(164 198 255);
+    color: white;
+}
+.bug-edit input:focus{
+    outline: none;
+}
+
+/* additional btns */
+.additional-btns{
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+footer{
+    background-color: rgb(164 198 255);
+    padding: 5px;
+    /* margin: 10px 0; */
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+nav a{
+    display: inline-block;
+    margin: 3px;
+    padding: 10px;
+    border-bottom: 1px solid transparent;
+    text-decoration: none;
+}
+nav a:hover{
+    border-bottom: 1px solid whitesmoke;
+    text-decoration: overline;
+    color: whitesmoke;
+}
+nav a.active{
+    border-bottom: 1px solid rgb(225 89 225);
+    text-decoration: overline;
+    color: #ff32ff;
+}
+
+.main-title {
+    text-align: center;
+    color:rgba(36, 7, 7, 0.685);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.user-msg {
+    color:white;
+    padding: 10px;
+    font-size: 1.4em;
+    position: fixed;
+    top:0;
+    right:0;
+    background-color: grey;
+}
+.user-msg button {
+    float:right;
+    border:0;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.success {
+    background-color: rgb(41, 189, 73);
+}
+.danger {
+    background-color: rgb(216, 59, 59);
+}
+
+
+.bug-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10%;
+}
+
+.bug-preview a {
+    color: lightskyblue;
+}
+
+.bug-preview span {
+    color: gold;
+}
+/* layout */
+/* .main-layout{
+    margin-right: 30px;
+    margin-left: 30px;
+} */
+
+.home-page h2{
+    text-align: center;
+    font-size: 2rem;
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "_id": "u101",
+    "fullname": "pukipuki",
+    "username": "puki",
+    "password": "secret"
+  },
+  {
+    "_id": "u102",
+    "fullname": "mukimuki",
+    "username": "muki",
+    "password": "secret2"
+  },
+  {
+    "_id": "u103",
+    "fullname": "dukiduki",
+    "username": "dudi",
+    "password": "secret3"
+  },
+  {
+    "_id": "Y777C",
+    "fullname": "ofer",
+    "username": "oferiko",
+    "password": "secrets"
+  },
+  {
+    "_id": "ERNfT",
+    "fullname": "newnew",
+    "username": "new",
+    "password": "secret"
+  },
+  {
+    "_id": "LWlhC",
+    "fullname": "news",
+    "username": "new",
+    "password": "secret"
+  },
+  {
+    "_id": "e1WEG",
+    "fullname": "wow",
+    "username": "wow",
+    "password": "secret"
+  },
+  {
+    "_id": "dADF3",
+    "fullname": "newnew",
+    "username": "ofergavri",
+    "password": "secrets"
+  },
+  {
+    "_id": "dADSW3",
+    "fullname": "admin",
+    "username": "admin",
+    "password": "admin"
+  }
+]
